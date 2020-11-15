@@ -44,7 +44,7 @@ class Random_Word_GeneratorApp(App):
         # Creat  button for printing text from child buttons
         self.btn7 = Button(text ="Push This Button To Print List " +
         "Of Current Words \nTo The Text File: 'new_pword_list.txt' " +
-        "\nIn Directory '/home/Desktop'. ",
+        "\nIn the directory this program is located in. ",
             background_color = [1, 0, 1, 1],
             halign ='center',
             valign ='center')
@@ -115,7 +115,7 @@ class Random_Word_GeneratorApp(App):
     def callback1(self, event):
         
         # File path and name for 7,000 word list to pull random words from
-        filename = '/home/king/Downloads/Programs/random_word/only_words.txt'
+        filename = 'only_words.txt'
         
         # Create lists for storing text file words and random words       
         words = []
@@ -135,7 +135,7 @@ class Random_Word_GeneratorApp(App):
     # callback function tells when button 2 pressed 
     def callback2(self, event):
     
-        filename = '/home/king/Downloads/Programs/random_word/only_words.txt'
+        filename = 'only_words.txt'
                
         words = []
         pword = []
@@ -158,7 +158,7 @@ class Random_Word_GeneratorApp(App):
     # callback function tells when button 3 pressed 
     def callback3(self, event):
     
-        filename = '/home/king/Downloads/Programs/random_word/only_words.txt'
+        filename = 'only_words.txt'
                
         words = []
         pword = []
@@ -174,7 +174,7 @@ class Random_Word_GeneratorApp(App):
         # callback function tells when button 4 pressed 
     def callback4(self, event):
     
-        filename = '/home/king/Downloads/Programs/random_word/only_words.txt'
+        filename = 'only_words.txt'
                
         words = []
         pword = []
@@ -190,7 +190,7 @@ class Random_Word_GeneratorApp(App):
     # callback function tells when button 5 pressed 
     def callback5(self, event):
     
-        filename = '/home/king/Downloads/Programs/random_word/only_words.txt'
+        filename = 'only_words.txt'
                
         words = []
         pword = []
@@ -206,7 +206,7 @@ class Random_Word_GeneratorApp(App):
     # callback function tells when button 6 pressed 
     def callback6(self, event):
     
-        filename = '/home/king/Downloads/Programs/random_word/only_words.txt'
+        filename = 'only_words.txt'
                
         words = []
         pword = []
@@ -222,7 +222,7 @@ class Random_Word_GeneratorApp(App):
     def callback7(self, event):
     
         # Define file path and name for new password list        
-        new_file = str('/home/king/Desktop/new_pword_list.txt')
+        new_file = str('new_pword_list.txt')
         
         # Create string from text stored in each button to print to file
         new_string = str(self.btn1.text + self.btn2.text + self.btn3.text +
