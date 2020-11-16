@@ -15,4 +15,12 @@ Credits:
         Word list extrapolated from EFF list available to the public via their
         website: eff.org
 
-        
+
+REQUIREMENTS FOR UBUNTU 20.04
+________________________________________________________________________________
+
+python3
+    sudo apt-get install -y python3
+    
+tkinter
+    sudo apt-get install -y python3-tk         
