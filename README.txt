@@ -32,4 +32,16 @@ kivy
     Install by opening "Terminal" and entering the following commands in order:
         sudo add-apt-repository ppa:kivy-team/kivy
         sudo apt update
-        sudo apt-get install -y python3-kivy      
+        sudo apt-get install -y python3-kivy 
+        
+
+________________________________________________________________________________
+
+GIT CLONE LINK
+________________________________________________________________________________
+
+# To git clone into the repository folder, enter the following command into 
+# Terminal after navigating from within Terminal to the folder you'd like the
+# program folder to be cloned to.
+
+git clone https://github.com/promontorycoder/random_word_list_kivy.git     
