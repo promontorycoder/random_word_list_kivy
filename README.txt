@@ -21,9 +21,15 @@ ________________________________________________________________________________
 REQUIREMENTS FOR UBUNTU 20.04
 ________________________________________________________________________________
 
+#   If not already installed, install the following modules via Terminal by
+#   entering the commands below in the order they are given.
+    
 python3
-    sudo apt-get install -y python3
+    Install by opening "Terminal" and entering the following command:
+        sudo apt-get install -y python3
     
 kivy
-    sudo add-apt-repository ppa:kivy-team/kivy
-    sudo apt-get install -y python3-kivy      
+    Install by opening "Terminal" and entering the following commands in order:
+        sudo add-apt-repository ppa:kivy-team/kivy
+        sudo apt update
+        sudo apt-get install -y python3-kivy      
