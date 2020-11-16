@@ -15,6 +15,7 @@ Credits:
         Word list extrapolated from EFF list available to the public via their
         website: eff.org
 
+________________________________________________________________________________
 
 REQUIREMENTS FOR UBUNTU 20.04
 ________________________________________________________________________________
